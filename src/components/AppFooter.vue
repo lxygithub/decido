@@ -1,5 +1,18 @@
 <script setup lang="ts">
+import { onMounted } from 'vue'
 import { t } from '../i18n'
+
+onMounted(() => {
+  const el = document.getElementById('site-views')
+  fetch('/api/views')
+    .then((r) => r.json())
+    .then((d) => {
+      if (el && d && d.views != null) el.textContent = Number(d.views).toLocaleString()
+    })
+    .catch(() => {
+      if (el) el.textContent = '—'
+    })
+})
 </script>
 
 <template>
@@ -8,7 +21,7 @@ import { t } from '../i18n'
       <p class="foot-brand">{{ t('footer.brand') }}</p>
       <p class="foot-note">{{ t('footer.note') }}</p>
       <p class="foot-note">
-        {{ t('footer.visits') }}: <span id="busuanzi_value_site_pv">0</span>
+        {{ t('footer.visits') }}: <span id="site-views">0</span>
       </p>
     </div>
   </footer>
