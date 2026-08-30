@@ -23,6 +23,9 @@ onMounted(() => {
       <p class="foot-note">
         {{ t('footer.visits') }}: <span id="site-views">0</span>
       </p>
+      <p class="foot-note">
+        <a href="mailto:mewlxy@foxmail.com">mewlxy@foxmail.com</a>
+      </p>
     </div>
   </footer>
 </template>
@@ -57,5 +60,14 @@ onMounted(() => {
 .foot-note {
   font-size: 12px;
   color: var(--text-3);
+}
+
+.foot-note a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.foot-note a:hover {
+  color: var(--primary);
 }
 </style>
