@@ -28,7 +28,7 @@ export const en = {
   'modal.ok': 'OK',
   'modal.cancel': 'Play again',
   'footer.brand': 'Decido · Stop agonizing — let luck make the call',
-  'footer.note': 'Pure frontend · Data stays on your device · Free hosting on Cloudflare Workers / Pages',
+  'footer.note': 'Pure frontend · Data stays on your device',
 
   /* ---------- Home ---------- */
   'home.badge': 'Free · No sign-up · Data never leaves your device',
