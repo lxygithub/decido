@@ -7,6 +7,9 @@ import { t } from '../i18n'
     <div class="container footer-inner">
       <p class="foot-brand">{{ t('footer.brand') }}</p>
       <p class="foot-note">{{ t('footer.note') }}</p>
+      <p class="foot-note">
+        {{ t('footer.visits') }}: <span id="busuanzi_value_site_pv">0</span>
+      </p>
     </div>
   </footer>
 </template>

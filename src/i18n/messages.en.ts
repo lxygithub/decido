@@ -29,6 +29,7 @@ export const en = {
   'modal.cancel': 'Play again',
   'footer.brand': 'Decido · Stop agonizing — let luck make the call',
   'footer.note': 'Pure frontend · Data stays on your device',
+  'footer.visits': 'Visits',
 
   /* ---------- Home ---------- */
   'home.badge': 'Free · No sign-up · Data never leaves your device',

@@ -29,6 +29,7 @@ export const zh: Record<MessageKey, string> = {
   'modal.cancel': '再玩一次',
   'footer.brand': '决定吧 · 别纠结了，让运气替你做决定',
   'footer.note': '纯前端实现 · 数据仅存本机',
+  'footer.visits': '访问量',
 
   /* ---------- Home ---------- */
   'home.badge': '免费 · 无需登录 · 数据不出设备',
