@@ -1,0 +1,13 @@
+// Cloudflare Workers 部署配置（推荐）
+// 免费额度：静态资源请求完全免费且不计入请求数，Workers 免费版每日 10 万次动态请求
+// 部署命令：npm run deploy （或 npx wrangler deploy）
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "decido",
+  "compatibility_date": "2026-08-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application",
+    "html_handling": "auto-trailing-slash"
+  }
+}

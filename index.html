@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Decido — decision tools for the indecisive. Lucky wheel, dice roll, random numbers, coin flip, list shuffle, lucky draw, moon blocks, decision timer and more. 10 free tools, pure frontend, data never leaves your device. 中文/English."
+    />
+    <meta name="theme-color" content="#f6f5f2" />
+    <meta property="og:title" content="Decido · Decision Tools for the Indecisive" />
+    <meta property="og:description" content="Too many options? Let luck make the call. 10 free decision tools." />
+    <title>Decido · Decision Tools for the Indecisive</title>
+    <script>
+      // 首屏前同步语言，避免标题闪烁
+      try {
+        var saved = localStorage.getItem('decido.locale')
+        if (saved === 'zh') {
+          document.documentElement.lang = 'zh-CN'
+          document.title = '决定吧 · 选择困难症自救工具箱'
+        }
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+node_modules
+dist
+dev.log
+server.log
+.wrangler
+.zscripts/*.log
+.DS_Store
+*.local
