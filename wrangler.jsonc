@@ -7,7 +7,7 @@
   "main": "src/worker.ts",
   "compatibility_date": "2026-08-01",
   "kv_namespaces": [
-    { "binding": "VIEWS_KV", "id": "REPLACE_WITH_KV_NAMESPACE_ID" }
+    { "binding": "VIEWS_KV", "id": "71d7525929c74606b8584743a39c36ca" }
   ],
   "assets": {
     "directory": "./dist",
